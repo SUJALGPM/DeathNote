@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="?attr/actionModeCopyDrawable"/>
+    <item
+        android:id="@+id/addcourse"
+        android:title="Notes"
+        android:icon="?attr/actionModeCopyDrawable"/>
+    <item
+        android:id="@+id/viewcourse"
+        android:title="View Course"
+        android:icon="?attr/actionModeCopyDrawable"/>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="?attr/actionModeCopyDrawable"/>
+    <item
+        android:id="@+id/contact"
+        android:title="Contact Us"
+        android:icon="?attr/actionModeCopyDrawable"/>
+
+</menu>

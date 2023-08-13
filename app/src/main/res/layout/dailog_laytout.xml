@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical"
+    android:background="#59ADEF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_margin="21dp"
+        android:text="Add Course"
+        android:id="@+id/dailog_title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:id="@+id/editTitle"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:background="@color/white"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:id="@+id/editDescription"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:text="Add"
+        android:id="@+id/btnAction"/>
+
+
+</LinearLayout>
